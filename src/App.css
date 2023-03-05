@@ -1,18 +1,43 @@
-* {
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@700&display=swap');
+
+
+:root {
+  --text-light: #a83149;
+  --text-dark: #43121d;
+  --text-gray: #555555;
 }
 
-input {
-    color: #000;
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-    color: #fff;
-}
 body {
-    background-color: #EAEDED;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	color: var(--text-gray);
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: var(--text-dark);
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	letter-spacing: 0.1px;
+}
+
+p {
+	font-size: 16px;
+	color: var(--text-gray);
+	line-height: 28px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.5px;
 }
